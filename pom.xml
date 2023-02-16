@@ -1,12 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>opencart_project</groupId>
-  <artifactId>opencart_project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <build>
-  
-     <sourceDirectory>src</sourceDirectory>
-     <testSourceDirectory>test</testSourceDirectory>
+<modelVersion>4.0.0</modelVersion>
+<groupId>opencart_aug10</groupId>
+<artifactId>opencart_aug10</artifactId>
+<version>0.0.1-SNAPSHOT</version>
+<build>
 <pluginManagement>
 <plugins>
 <plugin>
@@ -15,7 +12,7 @@
 <version>3.0.0-M7</version>
 <configuration>
 <suiteXmlFiles>
-<suiteXmlFile>mastertest.xml</suiteXmlFile>
+<suiteXmlFile>master.xml</suiteXmlFile>
 </suiteXmlFiles>
 </configuration>
 </plugin>
@@ -92,6 +89,4 @@
 <version>5.0.9</version>
 </dependency>
 </dependencies>
-
 </project>
-
